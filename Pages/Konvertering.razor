@@ -1,18 +1,40 @@
 ﻿@page "/converting"
+@using System
 
 <PageTitle>Konvertering</PageTitle>
 
 <h1>Konvertering</h1>
 
-<p role="status">Current count: @currentCount</p>
+<div class="km-input">
+    <label for="kmInput">Antal hela kilometer:</label>
+    <input @bind="kilometers" id="kmInput" type="number" />
+    <button @onclick="ConvertKmToMiles">Konvertera</button>
+    <span>@milesResult miles</span>
+</div>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<div class="m-input">
+    <label for="mInput">Antal hela meter:</label>
+    <input @bind="meters" id="mInput" type="number" />
+    <button @onclick="ConvertMetersToFeet">Konvertera</button>
+    <span>@feetResult feet</span>
+</div>
+
 
 @code {
-    private int currentCount = 0;
+    double kilometers;
+    double milesResult;
+    double meters;
+    double feetResult;
 
-    private void IncrementCount()
+    void ConvertKmToMiles()
     {
-        currentCount++;
+        milesResult = kilometers * 0.621371;
+        kilometers = 0;
+    }
+
+    void ConvertMetersToFeet()
+    {
+        feetResult = meters * 3.28084;
+        meters = 0;
     }
 }
