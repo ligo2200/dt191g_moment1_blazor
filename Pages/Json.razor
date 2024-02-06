@@ -5,8 +5,40 @@
 
 <h1>JSON</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<h2>Hämtning av JSON</h2>
+<p>Här nedan hämtas data från en json-fil in som beskriver några av de olika måttsystem som finns i världen.</p>
 
+@if (systems != null)
+{
+    <ul>
+        @foreach (var system in systems)
+        {
+            <li>
+                <h4>@system.System</h4>
+                <p>@system.Description</p>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+
+    private MeasurementSystem[]? systems;
+
+    protected override async Task OnInitializedAsync()
+    {
+        systems = await Http.GetFromJsonAsync<MeasurementSystem[]>("sample-data/systems.json");
+    }
+
+    public class MeasurementSystem
+    {
+        public string System { get; set; }
+        public string Description { get; set; }
+    }
+}
+
+
+<!--
 @if (forecasts == null)
 {
     <p><em>Loading...</em></p>
@@ -55,3 +87,4 @@ else
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
     }
 }
+-->

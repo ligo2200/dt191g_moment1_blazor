@@ -1,0 +1,30 @@
+﻿[
+  {
+    "system": "Internationellt måttsystem (the metric system)",
+    "description": "Detta är det mest använda mätsystemet i världen och är baserat på metriska enheter. Det inkluderar enheter som meter för längd, kilogram för massa, och sekund för tid."
+  },
+  {
+    "system": "Imperialt system (the imperial system",
+    "description": "Detta är det traditionella mätsystemet som används i länder som Storbritannien och USA. Det inkluderar enheter som fot, tum, pound och miles."
+  },
+  {
+    "system": "USA specialenheter (the US customary units)",
+    "description": "Detta är en variant av det imperiala systemet och används främst i USA. Det inkluderar enheter som inches (tum), pounds (pund), och yards (yard)."
+  },
+  {
+    "system": "Brittiska imperiala systemet (British imperial system)",
+    "description": "Detta system användes historiskt sett i Storbritannien och inkluderar enheter som fot, tum, pound och miles, men med några skillnader gentemot det amerikanska imperiala systemet som till exempel att vikten på ett pound skiljer sig åt."
+  },
+  {
+    "system": "Métrique decimal",
+    "description": "Detta är ett system som liknar det internationella måttsystemet men har anpassningar för vissa enheter, och används främst i Frankrike och i franskspråkiga länder."
+  },
+  {
+    "system": "Celsius",
+    "description": "Celsius används internationellt och är baserat på vattenfrysning vid 0°C och kokpunkten vid 100°C."
+  },
+  {
+    "system": "Fahrenheit",
+    "description": " Fahrenheit används främst i USA och har vattenfrysning vid 32°F och kokpunkten vid 212°F."
+  }
+]

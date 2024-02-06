@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xw00wawHQJaBn9xIftYaZwyYDiW5xzv31rJch4sBXvE=",
+  "Hash": "NKxK3lEUbuE/oOR1J0i670w2ne/7zOuur8+Fov9yFXE=",
   "Source": "moment1_blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7921,12 +7921,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\sample-data\\weather.json",
+      "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\sample-data\\systems.json",
       "SourceId": "moment1_blazor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
+      "RelativePath": "sample-data/systems.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7937,7 +7937,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+      "OriginalItemSpec": "wwwroot\\sample-data\\systems.json"
     }
   ]
 }

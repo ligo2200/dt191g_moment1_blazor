@@ -37,8 +37,8 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+      "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\sample-data\\systems.json",
+      "PackagePath": "staticwebassets\\sample-data\\systems.json"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.moment1_blazor.props",
