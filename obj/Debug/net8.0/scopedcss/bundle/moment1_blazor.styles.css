@@ -10,7 +10,7 @@ header div[b-3gu5xxf5cg] {
 .head[b-3gu5xxf5cg] {
     display: flex;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .head a[b-3gu5xxf5cg] {
     color: orangered;
@@ -21,6 +21,18 @@ header div[b-3gu5xxf5cg] {
     width: 20%;
     display: flex;
     align-items: flex-end;
+}
+
+main[b-3gu5xxf5cg] {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+.main-article[b-3gu5xxf5cg] {
+    width: 40%;
+    margin-top: 2%;
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
 .nav-menu[b-2psx05j2pm] {
@@ -38,3 +50,4 @@ li[b-2psx05j2pm] {
     margin-left: 5px; 
     margin-bottom: -10%;
 }
+

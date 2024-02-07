@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NKxK3lEUbuE/oOR1J0i670w2ne/7zOuur8+Fov9yFXE=",
+  "Hash": "+BKuDZihqtOMtm9P9Vbl4Obg7SuRcBCx2mYGyobnaD4=",
   "Source": "moment1_blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7864,12 +7864,12 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\favicon.png",
+      "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\css\\moment1_blazor.styles.css",
       "SourceId": "moment1_blazor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "favicon.png",
+      "RelativePath": "css/moment1_blazor.styles.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7880,15 +7880,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot\\css\\moment1_blazor.styles.css"
     },
     {
-      "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\icon-192.png",
+      "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\favicon.ico",
       "SourceId": "moment1_blazor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "icon-192.png",
+      "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7899,7 +7899,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icon-192.png"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\index.html",
@@ -7919,6 +7919,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\logotyp_mom1.2_frilagd.svg",
+      "SourceId": "moment1_blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "logotyp_mom1.2_frilagd.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logotyp_mom1.2_frilagd.svg"
     },
     {
       "Identity": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\sample-data\\systems.json",

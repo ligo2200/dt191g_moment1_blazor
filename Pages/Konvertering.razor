@@ -8,14 +8,14 @@
 <div class="km-input">
     <label for="kmInput">Antal hela kilometer:</label>
     <input @bind="kilometers" id="kmInput" type="number" />
-    <button @onclick="ConvertKmToMiles">Konvertera</button>
+    <button @onclick="ConvertKmToMiles" style="background-color: orange;">Konvertera</button>
     <span>@milesResult miles</span>
 </div>
 
-<div class="m-input">
+<div class="m-input" style="margin-top: 15px;">
     <label for="mInput">Antal hela meter:</label>
     <input @bind="meters" id="mInput" type="number" />
-    <button @onclick="ConvertMetersToFeet">Konvertera</button>
+    <button @onclick="ConvertMetersToFeet" style="background-color: orange;">Konvertera</button>
     <span>@feetResult feet</span>
 </div>
 

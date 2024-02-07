@@ -25,16 +25,20 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\css\\moment1_blazor.styles.css",
+      "PackagePath": "staticwebassets\\css\\moment1_blazor.styles.css"
     },
     {
-      "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\icon-192.png",
-      "PackagePath": "staticwebassets\\icon-192.png"
+      "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
       "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\logotyp_mom1.2_frilagd.svg",
+      "PackagePath": "staticwebassets\\logotyp_mom1.2_frilagd.svg"
     },
     {
       "Id": "C:\\Linda\\webbutveckling\\år2\\DT191G_webbutveckling_med_dotnet\\moment1_blazor\\wwwroot\\sample-data\\systems.json",
