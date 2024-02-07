@@ -1,4 +1,23 @@
 header[b-3gu5xxf5cg] {
-    border: 2px solid magenta;
     display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #000000, #FFA500);
+}
+header div[b-3gu5xxf5cg] {
+    padding: 2%; 
+}
+.head[b-3gu5xxf5cg] {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.head a[b-3gu5xxf5cg] {
+    color: orangered;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+.nav[b-3gu5xxf5cg] {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
 }

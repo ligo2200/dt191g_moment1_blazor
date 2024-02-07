@@ -1,28 +1,30 @@
-﻿<div class="">
-    <div class="">
-        <button title="Navigation menu" class="navbar-toggler">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
-
-<div class="nav-menu">
-    <nav class="">
+﻿<div class="nav-menu">
+    <nav class="nav-menu">
         <ul>
             <li>
 
-                <NavLink class="" href="" Match="NavLinkMatch.All">Home</NavLink>
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All" style="color: black;">Home</NavLink>
             </li>
             <li>
 
-                <NavLink class="" href="converting">Konvertering</NavLink>
+                <NavLink class="nav-link" href="converting" style="color: black;">Konvertering</NavLink>
 
             </li>
             <li>
 
-                <NavLink class="" href="json">Json</NavLink>
+                <NavLink class="nav-link" href="json" style="color: black;">Json</NavLink>
 
             </li>
         </ul>
     </nav>
 </div>
+
+<style>
+    .nav-link {
+        padding: 10%;
+    }
+    .nav-link:hover {
+        background-color: black;
+        color: orange !important;
+    }
+</style>

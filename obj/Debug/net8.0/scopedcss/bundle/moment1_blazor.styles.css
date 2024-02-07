@@ -1,67 +1,40 @@
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-3gu5xxf5cg] {
-    border: 2px solid magenta;
     display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #000000, #FFA500);
+}
+header div[b-3gu5xxf5cg] {
+    padding: 2%; 
+}
+.head[b-3gu5xxf5cg] {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.head a[b-3gu5xxf5cg] {
+    color: orangered;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+.nav[b-3gu5xxf5cg] {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
 .nav-menu[b-2psx05j2pm] {
    display: flex;
    width: 100%;
-   border: 2px solid lime;
 }
 ul[b-2psx05j2pm] {
-    border: 2px solid orange;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 li[b-2psx05j2pm] {
     display: inline-block;
-    padding: 2%;
-}
-
-.nav-link[b-2psx05j2pm] {
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 10px; /* Avstånd mellan länkarna */
-    transition: all 0.3s ease; /* Gör övergången mjuk */
-}
-
-.nav-link:hover[b-2psx05j2pm] {
-    text-decoration: underline; /* Lägg till understrykning vid hovring över länk */
-}
-
-.navbar-toggler[b-2psx05j2pm] {
-    display: none; /* Dölj standardknappen för att visa/skjuta in navigeringsmenyn */
-}
-
-@media (max-width: 768px) {
-    /* Anpassad styling för mindre skärmar (mobilanpassning) */
-    .nav-menu[b-2psx05j2pm] {
-        display: none; /* Dölj navigeringsmenyn som standard på mindre skärmar */
-    }
-
-    .navbar-toggler[b-2psx05j2pm] {
-        display: block; /* Visa knappen för att visa/skjuta in navigeringsmenyn på mindre skärmar */
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        outline: none;
-    }
-
-    .navbar-toggler-icon[b-2psx05j2pm] {
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="rgba(255, 255, 255, 0.8)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
-    .navbar-toggler.active .navbar-toggler-icon[b-2psx05j2pm] {
-        transform: rotate(90deg); /* Ändra rotationen på ikonen när menyn är öppen */
-    }
-
-    .nav-menu.active[b-2psx05j2pm] {
-        display: block; /* Visa navigeringsmenyn när knappen klickas på */
-    }
+    padding: 3%;
+    margin-left: 5px; 
+    margin-bottom: -10%;
 }
