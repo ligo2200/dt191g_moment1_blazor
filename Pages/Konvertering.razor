@@ -5,14 +5,14 @@
 
 <h1>Konvertering</h1>
 
-<div class="km-input">
+<div class="km-input" style="margin-bottom: 45px;">
     <label for="kmInput">Antal hela kilometer:</label>
     <input @bind="kilometers" id="kmInput" type="number" />
     <button @onclick="ConvertKmToMiles" style="background-color: orange;">Konvertera</button>
     <span>@milesResult miles</span>
 </div>
 
-<div class="m-input" style="margin-top: 15px;">
+<div class="m-input" style="margin-bottom: 6px;">
     <label for="mInput">Antal hela meter:</label>
     <input @bind="meters" id="mInput" type="number" />
     <button @onclick="ConvertMetersToFeet" style="background-color: orange;">Konvertera</button>

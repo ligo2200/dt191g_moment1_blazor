@@ -15,6 +15,7 @@ header div {
     color: orangered;
     font-size: 1.7em;
     text-decoration: none;
+    text-shadow: 1px 1px #000000;
 }
 .nav {
     width: 20%;
@@ -28,8 +29,17 @@ main {
     text-align: center;
     width: 100%;
     align-items: center;
+    margin-bottom: 24%;
 }
 .main-article {
     width: 40%;
     margin-top: 2%;
+}
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #000000, #FFA500);
+    padding: 1.5%;
+    margin-top: 60px;
+    color: orangered;
+    text-shadow: 1px 1px #000000;
 }
