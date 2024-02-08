@@ -2,6 +2,7 @@ header[b-3gu5xxf5cg] {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to right, #000000, #FFA500);
+    box-shadow: 0px 3px 8px black;
 }
 header div[b-3gu5xxf5cg] {
     padding: 2%; 
@@ -12,7 +13,7 @@ header div[b-3gu5xxf5cg] {
     margin-left: 15%;
 }
 .head a[b-3gu5xxf5cg] {
-    color: orangered;
+    color: orange;
     font-size: 1.7em;
     text-decoration: none;
     text-shadow: 1px 1px #000000;
@@ -40,6 +41,6 @@ footer[b-3gu5xxf5cg] {
     background: linear-gradient(to right, #000000, #FFA500);
     padding: 1.5%;
     margin-top: 60px;
-    color: orangered;
-    text-shadow: 1px 1px #000000;
+    color: orange;
+    text-shadow: 01px 2px #000000;
 }
