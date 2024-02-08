@@ -8,6 +8,7 @@
 <h2>Hämtning av JSON</h2>
 <p>Här nedan hämtas data från en json-fil in som beskriver några av de olika måttsystem som finns i världen.</p>
 
+
 @if (systems != null)
 {
     <ul class="system-ul">
@@ -23,10 +24,12 @@
 
 @code {
 
+    // array
     private MeasurementSystem[]? systems;
 
     protected override async Task OnInitializedAsync()
     {
+        //get data from json to variable
         systems = await Http.GetFromJsonAsync<MeasurementSystem[]>("sample-data/systems.json");
     }
 
@@ -38,53 +41,3 @@
 }
 
 
-<!--
-@if (forecasts == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-
-@code {
-    private WeatherForecast[]? forecasts;
-
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-    }
-
-    public class WeatherForecast
-    {
-        public DateOnly Date { get; set; }
-
-        public int TemperatureC { get; set; }
-
-        public string? Summary { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
-}
--->
